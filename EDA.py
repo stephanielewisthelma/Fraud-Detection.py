@@ -6,12 +6,12 @@ import seaborn as sns
 df = pd.read_csv("bank_transactions.csv")
 # A histogram shows how transaction amounts are distributed. Each bar represents how many transactions fall
 # into that range. Adding the KDE line helps visualize the curve of the distribution.
-plt.figure(figsize=(8, 5))
-sns.histplot(df["TransactionAmount"], bins=30, kde=True, color="blue")
-plt.title("Distribution of Transaction Amounts")
-plt.xlabel("Transaction Amount")
-plt.ylabel("Frequency")
-plt.show()
+# plt.figure(figsize=(8, 5))
+# sns.histplot(df["TransactionAmount"], bins=30, kde=True, color="blue")
+# plt.title("Distribution of Transaction Amounts")
+# plt.xlabel("Transaction Amount")
+# plt.ylabel("Frequency")
+# plt.show()
 
 # A boxplot shows the spread of the transaction amounts. The box represents 
 # the middle 50% of the data, the line inside
