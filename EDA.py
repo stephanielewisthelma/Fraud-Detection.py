@@ -1,11 +1,10 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 
 df = pd.read_csv("bank_transactions.csv")
 
-
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Fraud vs Non-Fraud
 print(df["is_fraud"].value_counts())
